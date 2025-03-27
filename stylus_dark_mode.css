@@ -21,6 +21,7 @@
     
     :root {
         color-scheme: dark;
+        --layer-01: #000;
     }
      * {
         --text-primary:#fff;
@@ -213,12 +214,12 @@
         color: #ffffff !important;
     }
     
-    .cm-s-textmate.CodeMirror {
+    .cm-s-textmate.CodeMirror, .more-btn {
         color: #fff !important;
         background: #000 !important;
     }
     
-    #footer-root > footer {
+    #footer-root > footer, .mobile-tab-bar-base {
         background-color: black;
     }
     
