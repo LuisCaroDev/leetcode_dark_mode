@@ -1,0 +1,231 @@
+/* ==UserStyle==
+@name           leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/707/traversa...
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://leetcode.com/explore/") {
+    /* Insert code here... */
+    
+    /* ==UserStyle==
+@name           LeetCode Dark Theme
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Tema oscuro para LeetCode
+@author         Luis Caro
+==/UserStyle== */
+
+/* @-moz-document domain("leetcode.com") { */
+    
+    :root {
+        color-scheme: dark;
+    }
+     * {
+        --text-primary:#fff;
+        --text-secondary: #d6d6d6;
+    }
+    .bg-overlay-2, .bg-overlay-3, .bg-overlay-4, .bg-paper, .notification-menu-container__3MW3 {
+         background-color: #161616 !important;
+    }
+    .notification-link__2RRJ {
+         background-color: #161616 !important;
+    }
+    .ant-dropdown-menu.ant-dropdown-menu-root .ant-dropdown-menu-item:hover, .ant-dropdown-menu.ant-dropdown-menu-root  .ant-dropdown-menu-item.ant-dropdown-menu-item-active {
+         background-color: #000 !important;
+    }
+    .ant-dropdown-menu-item .notification-link__2RRJ::after,  .ant-dropdown-menu-item .notification-item-container__sH-w::after {
+         background: linear-gradient(180deg, #303030, #303030) !important;
+    }
+    
+    .normalBg__12uw, .content-viewer-toolbar-base, .content-viewer-toolbar-base .btn.menu-btn, .content-viewer-toolbar-base .btn.prev, .content-viewer-toolbar-base .btn.next, .content-viewer-base {
+        background-color: #2b2b2b !important;
+    }
+    .content-base, .explore-detail-base, .article-base.viewer-base, .up-shadow, .expandable-chapter-list-base {
+        background-color: black;
+    }
+    
+    /* Fondo y texto general */
+    body, .content-base, .explore-detail-base, .article-base.viewer-base, .background-rvs {
+        background-color: #1e1e1e !important;
+        color: #d4d4d4 !important;
+    }
+
+    /* Barra superior */
+    .top-bar, .top-bar__2J2o, .header {
+        background-color: #252526 !important;
+    }
+
+    /* Barra lateral */
+    .side-bar, .side-bar__3gAh, .left-panel {
+        background-color: #252526 !important;
+    }
+
+    /* Bloques de contenido */
+    .content-viewer-toolbar-base, .article-inner, .block-markdown, .panel-base, .question-detail {
+        background-color: #2b2b2b !important;
+    }
+
+    /* Títulos y subtítulos */
+    h1, h2, h3, h4, h5, h6 {
+        color: #ffffff !important;
+    }
+
+    /* Links */
+    a {
+        color: #fff !important;
+    }
+    
+    .article-inner li a {
+        color: #ffd758 !important;
+    }
+    .article-inner li a:visited {
+        color: #c49500 !important;
+    }
+
+    /* Código dentro del contenido */
+    pre, code {
+        background: #000 !important;
+        color: #e6e6e6 !important;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .list-group-item.chapter-list-item.false, .list-group-item.accessible, .list-group-item.chapter-item, .list-group-item.back-btn {
+        background-color: #1e1e1e !important;
+        border-color: #696969;
+    }
+    
+    .list-group .item-list-group {
+        background-color: #333 !important;
+    }
+    
+    .list-group-item.accessible:nth-child(even) {
+        background-color: #141414;
+    }
+
+    .list-group-item.chapter-list-item.false:hover,  .list-group-item.accessible:hover {
+        background-color: #3d3d3d !important;
+    }
+    
+    .list-group-item.chapter-list-item.active {
+        background-color: #191919 !important;
+        border-color: #696969;
+    }
+    
+    .chapter-list-base .description::after, .chapter .description::after {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), #1e1e1e 50%) !important;
+    }
+    
+    
+    .block-markdown p, .block-markdown li {
+        color: #dbdbdb !important;
+    }
+    
+    .block-markdown blockquote {
+        background-color: #000;
+        color: white;
+    }
+    .block-markdown blockquote p {
+        color: white;
+    }
+    
+    .check-mark.completed i {
+        text-shadow: none;
+    }
+    
+    .showcase-row::before {
+        background: linear-gradient(to right, #1e1e1e, #1e1e1e00) !important
+    }
+    .showcase-row::after {
+        background: linear-gradient(to right, #1e1e1e00, #1e1e1e) !important
+    }
+    
+    .start-button-base, .bot-base {
+        background-color: #000 !important;
+        color: #d4d4d4 !important;
+    }
+    
+    
+    .start-button-base, .bot-base .big-number {
+        color: #d4d4d4 !important;
+    }
+    
+    .explore-card-base .explore-card {
+        overflow: hidden;
+    }
+
+/* 🎯 Editor de Código (CodeMirror) */
+    #app .editor-base .editor .ReactCodeMirror .CodeMirror.CodeMirror-wrap, .CodeMirror-scroll {
+        background: #000 !important;
+        color: #d4d4d4 !important;
+        border: 1px solid #333 !important;
+    }
+
+    .CodeMirror-gutters {
+        background: #252526 !important;
+        border-right: 1px solid #333 !important;
+    }
+
+    .CodeMirror-cursor {
+        border-left: 2px solid #ffffff !important;
+    }
+
+    /* Palabras clave en el código */
+    .cm-keyword { color: #c586c0 !important; }
+    .cm-def { color: #dcdcaa !important; }
+    .cm-string { color: #ce9178 !important; }
+    .cm-number { color: #b5cea8 !important; }
+    .cm-property { color: #dcdcaa !important; }
+    .cm-comment { color: #6a9955 !important; }
+    .cm-variable { color: #4ec9b0 !important; }
+    .cm-variable-2 { color: #9cdcfe !important; }
+    .cm-operator { color: #d4d4d4 !important; }
+    .cm-atom { color: #569cd6 !important; }
+
+    /* Color de la línea activa */
+    .CodeMirror-activeline-background {
+        background: #2b2b2b !important;
+    }
+
+    /* Selección de texto */
+    .CodeMirror-selected {
+        background: #4ea1f3 !important;
+    }
+
+    /* Panel de ejecución */
+    .console-output, .console-input, .console-panel {
+        background-color: #000 !important;
+        color: #d4d4d4 !important;
+    }
+
+    /* Botones y Controles */
+    button, .btn, .menu-btn {
+        background-color: #333 !important;
+        color: white !important;
+        border: 1px solid #444 !important;
+    }
+
+    /* Resaltar selección */
+    ::selection {
+        background: #4ea1f3 !important;
+        color: #ffffff !important;
+    }
+    
+    .cm-s-textmate.CodeMirror {
+        color: #fff !important;
+        background: #000 !important;
+    }
+    
+    #footer-root > footer {
+        background-color: black;
+    }
+    
+    
+    .result-panel-base .panel.panel-default, .panel-default>.panel-heading {
+        color: #fff !important;
+        background: #000 !important;
+    }
+    
+}
